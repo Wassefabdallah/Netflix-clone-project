@@ -52,6 +52,7 @@ function Banner() {
       </div>
 
       <div className="banner--fadeBottom" />
+      
     </header>
   );
 }
