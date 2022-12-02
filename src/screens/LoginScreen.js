@@ -32,7 +32,7 @@ function LoginScreen() {
 
             <div className="loginScreen_input">
               <form action="">
-                <input type="email" placeholder="Email Adress" />
+                
                 <button
                   className="loginScreen__getStarted"
                   onClick={() => setSignIn(true)}
