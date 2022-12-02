@@ -15,7 +15,7 @@
 }
 
 .row__poster{
-    max-height: 100px;
+    max-height: 250px;
     object-fit: contain;
     margin-right: 12px;
     width: 100%;
@@ -29,5 +29,9 @@
 }
 
 .row__posterLarge {
-    max-height: 250px;
+    max-height: 200px;
+}
+
+.title__margin{
+    margin-top: 20px;
 }
