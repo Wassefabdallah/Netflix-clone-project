@@ -1,5 +1,7 @@
 const API_KEY = '151c90c75e8587cb8374ac0619f2de57';
 
+
+//FETCH THE MOVIE DESC. FROM THE API TMDB SERVER
 const requests ={
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,  
   fetchNetflixOriginals:`/discover/tv?api_key=${API_KEY}&with_networks=213`,

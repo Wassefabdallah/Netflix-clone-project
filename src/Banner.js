@@ -47,7 +47,7 @@ function Banner() {
           <button className="banner__button">My List</button>
         </div>
         <h1 className="banner__description">
-          {truncate(movie?.overview, 200)}
+          {truncate(movie?.overview, 200)} {/* sent the movie overview to the truncate function we created to add ponctuation on te 200th letter */}
         </h1>
       </div>
 

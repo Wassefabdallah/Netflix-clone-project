@@ -3,6 +3,7 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import "firebase/compat/storage";
 
+//THIS IS CONSIDERED AS AUTH. TO LOG IN TO YOUR FIREBASE ACCOUNT
 const firebaseConfig = {
     apiKey: "AIzaSyCX_tbgGQss68QwO1iBE3UtvHVro_ByhDo",
     authDomain: "netflix-clone-36810.firebaseapp.com",
@@ -16,6 +17,7 @@ const firebaseConfig = {
 
   const db = firebaseApp.firestore();
 
+  //USED TO SIGN-IN AND SIGN-UP VIA FIREBASE
   const auth = firebase.auth();
 
   export { auth };
